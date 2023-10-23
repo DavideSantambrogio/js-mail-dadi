@@ -22,7 +22,9 @@ document.getElementById("lancio").onclick = function() {
     // condizioni di vittoria
 
     if (playerNumber > computerNumber) {
-        console.log ("HAI VINTO !!!")
+        var element = document.getElementById("message");
+        element.classList.add("firework");
+        // console.log ("HAI VINTO !!!")
         result = ("HAI VINTO")
     }
 

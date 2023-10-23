@@ -68,3 +68,7 @@ button {
     gap: 3rem;
     background-color: rgba(0%, 0%, 0%, 0.5);
 }
+
+.firework {
+    background-image:url(../img/fireworks-1.gif);
+}
